@@ -1,0 +1,71 @@
+/* this is our main style sheet for project 1 */
+
+
+body{
+  font-family: 'Gotu', sans-serif;
+  background-color:#000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:0;
+  width:50%;
+  height:550px;
+  color:#ffffff;
+}
+
+h1{
+  font-weight:700;
+  font-style:normal;
+  font-size: 400px;
+  margin-top:-25px;
+  margin-bottom:-155px;
+}
+
+.letter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.analysis{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+h2,
+h3{
+  color:#ffffff;
+}
+
+h5{
+  font-size: 200px;
+  margin-top: 0px;
+  margin-bottom: -135px;
+}
+
+img {
+  width: 60px;
+}
+
+.letter-container{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+button{
+  color:#ff0000;
+  background:#D2B48C;
+  border:#ffffff;
+}
+
+.sources{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
