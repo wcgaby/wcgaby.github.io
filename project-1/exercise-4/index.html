@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Exercise 4: Positioning Objects</title>
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://jordanagk.github.io/exercises/exercise-4/ex4_positioning/assets/styles.css">
+  <!-- <link rel="stylesheet" href="https://jordanagk.github.io/exercises/exercise-4/ex4_positioning/assets/final-answers.css"> -->
+  <link rel="stylesheet" href="assets/your-answers.css">
+
+
+</head>
+
+<body>
+  <div class="container">
+    <!-- begin Intro section -->
+    <img class="lineup" src="assets/header.svg" alt="">
+
+    <div class="white-paragraph intro-section">
+      <p>This is a flexbox and positioning exercise that will focus on using the display:flex; property in section one and the position property in section two. Each area will have a different task for you to accomplish. Click the button below to
+        download your code to start.</p>
+
+      <a id="download-button" href="" download>Download the Zipped File</a>
+
+      <p>You will find a different task in each of the sections below.</p>
+    </div>
+    <!-- end Intro section -->
+
+    <!-- begin Absolute section -->
+    <div id="pro-one" class="fix-blue">
+      <img src="assets/frog-head-1.svg" alt="">
+      <!-- Move the #green-froggie to sit over top of the frog-head-1.svg by using position:absolute and the proper coordinates. -->
+      <img id="green-froggie" src="assets/green-froggie.svg" alt="">
+      <p>Use <b>position:absolute;</b> and <b>proper coordinates</b> to position Froggie over top of the dashed lines.</p>
+    </div>
+    <!-- end Absolute Section -->
+
+    <!-- Begin Relative Section -->
+    <div class="white-paragraph">
+      <p>Use <b>position:relative</b> and <b>proper coordinates</b> to move the dark green lily pad to be over top of the dashed lines below.</p>
+    </div>
+    <div class="rel-green">
+      <!-- Move the #rel-lily-pad to sit over top of the dotted outline with the number 2 by using position:relative and the proper coordinates. -->
+      <img id="rel-lily-pad" src="assets/lily-pad.svg" alt="">
+    </div>
+    <img class="lineup rel-blue" src="assets/rel-blue.svg" alt="">
+    <!-- end Relative section -->
+
+    <!-- begin Fixed section -->
+    <div class="white-paragraph">
+      <p>Use <b>position:fixed</b> and <b>proper coordinates</b> to bring the <span class="froggie gold">golden Froggie</span> with you for the rest of your journey in this exercise.</p>
+      <p>The <span class="froggie gold">golden Froggie</span> should be vertically centered on the orange bar to the right on your screen at all times.</p>
+    </div>
+    <div class="pos-rel fix-blue">
+      <img src="assets/fix-blue.svg" alt="">
+      <!-- Move the #gold-froggie to sit over top of the orange rounded rectangle on the right side of the screen by using position:fixed and the proper coordinates. -->
+      <img id="gold-froggie" src="assets/gold-froggie.svg" alt="">
+    </div>
+    <img id="fix-rec" class="lineup" src="assets/fix-rounded-rectangle.svg" alt="">
+    <!-- end Fixed section -->
+
+    <!-- begin Static section -->
+    <div class="white-paragraph">
+      <p>Use <b>position:static</b> to bring <span class="red froggie">red Froggie</span> back to his friends.</p>
+    </div>
+    <img id="red-froggie" src="assets/red-froggie.svg" alt="">
+    <img class="dis-blo" src="assets/sta-frogs.svg" alt="">
+    <!-- end Static section -->
+
+    <!-- Begin Flexbox Section 1 -->
+    <section class="flexbox">
+      <div class="white-paragraph">
+        <!-- Use display:flex to make all three froggies line up in a row. Remember display:flex needs to be applied to the PARENT element in order to work. -->
+        <p>Use <b>display:flex</b> to bring <span class="green froggie">green Froggie</span>, <span class="red froggie">red Froggie</span>, and <span class="purple froggie">purple Froggie</span> into a row instead of a column.</p>
+      </div>
+      <div class="flexbox-frogs-1">
+        <img src="assets/green-froggie.svg" alt="">
+        <img src="assets/red-froggie.svg" alt="">
+        <img src="assets/purple-froggie.svg" alt="">
+      </div>
+    </section>
+    <!-- end Flexbox Section 1 -->
+
+    <!-- Begin Flexbox Section 2 -->
+    <section class="flexbox">
+      <div class="white-paragraph">
+        <p>These three froggie amigos are realizing that they need a little horizontal space between them. Can you help them out?</p>
+
+        <p>Use <b>justify-content</b> to add an <em>even amount</em> of horizontal space between them.</p>
+      </div>
+      <div class="flexbox-frogs-2">
+        <img src="assets/green-froggie.svg" alt="">
+        <img src="assets/red-froggie.svg" alt="">
+        <img src="assets/purple-froggie.svg" alt="">
+      </div>
+    </section>
+    <!-- end Flexbox Section 2 -->
+
+    <!-- Begin Flexbox Section 3 -->
+    <section class="flexbox">
+      <div class="white-paragraph">
+        <p>We have some unhappy froggies on our hands (don't let their smiles fool you). <span class="green froggie">Green Froggie</span> is tired of being all the way to the left, <span class="purple froggie">purple Froggie</span> is tired of being all the way to the right, and <span class="red froggie">red Froggie</span> is happy chilling in the middle. </p>
+
+          <p>Use <b>order</b> to rearrange everyones position in the row so they are happy.</p>
+      </div>
+      <div class="flexbox-frogs-3">
+        <img id="unhappy-green" src="assets/green-froggie.svg" alt="">
+        <img id="happy-red" src="assets/red-froggie.svg" alt="">
+        <img id="unhappy-purple" src="assets/purple-froggie.svg" alt="">
+      </div>
+    </section>
+    <!-- end Flexbox Section 3 -->
+
+
+
+
+  </div>
+  <!-- end of .container div -->
+</body>
+
+</html>

@@ -9,9 +9,12 @@ body{
   justify-content: center;
   align-items: center;
   padding:0;
-  width:50%;
-  height:1024px;
   color:#ffffff;
+}
+
+.container{
+  width: 50%;
+  height:1024px;
 }
 
 h1{
@@ -42,6 +45,10 @@ h3{
   color:#ffffff;
 }
 
+footer h3, footer p{
+  margin: 0;
+}
+
 h5{
   font-size: 200px;
   margin-top: 0px;
@@ -66,15 +73,31 @@ button{
 
 .svg{
   position: absolute;
-  top: 120px;
-  left: 120px;
-  height: 100%;
-  width: 100%
+    top: 108px;
+    left: 18px;
+    height: 67%;
+    width: 76%;
 } /*These values put the letter analysis in the right place*/
 
-.sources{
+footer, div.picture {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: baseline;
+  justify-content: space-around;
+}
+
+.info{
+  margin-left: 20px;
+}
+.picture, .info{
+  margin-right: 30px;
+}
+
+.sources{
+  width: 200px;
+}
+
+#letter-analysis{
+  opacity: 1;
+}
+#letter-analysis.visible{
+  opacity: 0;
 }
