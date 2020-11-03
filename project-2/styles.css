@@ -1,0 +1,232 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* homepage styles */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Cabin', sans-serif;
+  width: 100vw;
+}
+
+div.nav {
+  width: 100vw;
+  background-color: #B8825E;
+}
+
+img#deer {
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'League Gothic Regular', sans-serif;
+  width: 80%;
+  color: #F77C13;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #B8825E;
+}
+
+nav a {
+  width: 34%;
+  background-color: #B8825E;
+  padding: 20px 0px;
+}
+
+nav a:hover {
+  background-color: #B8BDC9;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background-color: #5A8854;
+}
+
+.intro {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 15px;
+  width: 35vw;
+}
+
+.image-container {
+  position: relative;
+}
+
+.button-holder{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+#calendar {
+  width: 50vw;
+  margin: 0 auto;
+  display: flex;
+}
+
+.calendar {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.locations-header {
+display: flex;
+width: 80vw;
+margin: 0 auto;
+justify-content: space-between;
+}
+
+.locations-header .descriptions {
+width: 45%;
+background-color: bisque;
+padding: 10px;
+}
+
+.map {
+  width: 50%;
+}
+
+.map img {
+  width: 100%;
+}
+
+.resources {
+  /* width: 80vw; */
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.resources a {
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+  padding-right: 20px;
+}
+
+.resources #video {
+  width: 15vw;
+  display: flex;
+}
+
+/* a {
+  font-family: helvetica,sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #3D3B24;
+  background-color: #eeece7;
+  padding: 20% 0;
+  border-radius: 25px;
+  display: block;
+  width: 20%;
+  text-align: center;
+  height: 50px;
+}
+a:hover {
+  font-family: monospace;
+  background-color: #3D3B24;
+  color: #EEECE7;
+} */
+
+/* homepage styles */
+
+/* basics styles */
+/* .resources {
+  margin: 15px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+} */
+
+/* basics styles */
+
+/* calendar styles */
+/* .calendar {
+  width: 100px 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* calendar styles */
+
+/* locations styles */
+/* body {
+  background-color: #5A8854;
+} */
+
+h1 {
+  font-size: 35px;
+  font-family: 'League Gothic Regular', sans-serif;
+  margin: 25px;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Cabin', sans-serif;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 16px;
+  font-family: 'Cabin', sans-serif;
+  margin-bottom: 10px;
+}
+
+/* .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0; */
+}
+
+/* .descriptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  width: 900px;
+} */
+
+/* img {
+  width: 75%; */
+}
+
+/* a {
+  font-family: 'Cabin',sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #3D3B24;
+  background-color: #eeece7;
+  padding: 20% 0;
+  /* border-radius: 25px; */
+  display: block;
+  width: 80%;
+  text-align: center;
+  height: 50px;
+} */
+
+/* locations styles */
