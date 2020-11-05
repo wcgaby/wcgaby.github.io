@@ -3,25 +3,34 @@
   <head>
     <title>Whitetail Hunting Season Calendar</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href="styles/multiple-buttons/assets/styles.css">
+    <script src='styles/multiple-buttons/assets/multi-button.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <div class='title'>
+      <a href='homepage.html'> <img src='media/home.png' id='home'> </a>
       <h1>Northern Indiana Hunting Seasons</h1>
     </div>
     <div class='nav'>
       <nav>
-        <a href='homepage.html'>Home <a/>
         <a href='locations.html'>Public Locations </a>
         <a href='calendar.html'>Calendar </a>
         <a href='basics.html'>FAQ </a>
       </nav>
     </div>
-    <div class='buttons'>
-      <a href='styles/multiple-buttons/assets/multi-button.js'> </a>
+    <div class='image-container'>
+      <img src='media/rifle.png' id="rifle">
+      <img src='media/archery.png' id="archery">
+      <img src='media/muzzleloader.png' id='muzzleloader'>
     </div>
-    <img src='media/rifle-calendar.jpg' id="calendar" style="width: 50vw; margin:0 auto;">
-    <div class='calendar-buttons'>
+    <div class='buttons'>
+      <button>Rifle</button>
+      <button>Bow</button>
+      <button>Shotgun</button>
+    </div>
+
   </body>
 </html>

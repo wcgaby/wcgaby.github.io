@@ -58,22 +58,22 @@ button:hover {
   border-bottom: 5px solid;
 }
 
-#bow-button.active,
-#bow-button:hover {
+#archery-button.active,
+#archery-button:hover {
   border-color: #3d9a39;
 }
 
-#bow-button:hover {
+#archery-button:hover {
   background-color: #3d9a39;
   color: #ffffff;
 }
 
-#shotgun-button.active,
-#shotgun-button:hover {
+#muzzleloader-button.active,
+#muzzleloader-button:hover {
   border-color: #EA3F3F;
 }
 
-#shotgun-button:hover {
+#muzzleloader-button:hover {
   background-color: #EA3F3F;
   color: #ffffff;
 }

@@ -23,6 +23,7 @@ img#deer {
 nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   font-family: 'League Gothic Regular', sans-serif;
   width: 80%;
   color: #F77C13;
@@ -31,12 +32,14 @@ nav {
   text-align: center;
   margin: 0 auto;
   background-color: #B8825E;
+  position: sticky;
 }
 
 nav a {
-  width: 34%;
+  width: 20%;
   background-color: #B8825E;
   padding: 20px 0px;
+  color: #F77C13;
 }
 
 nav a:hover {
@@ -45,11 +48,11 @@ nav a:hover {
 
 .title{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 0;
-  background-color: #5A8854;
+  /* background-color: #5A8854; */
 }
 
 .intro {
@@ -77,7 +80,7 @@ nav a:hover {
   position: absolute;
 }
 
-#calendar {
+#rifle {
   width: 50vw;
   margin: 0 auto;
   display: flex;
@@ -86,6 +89,28 @@ nav a:hover {
 .calendar {
   width: 800px;
   margin: 0 auto;
+}
+
+#home {
+  display: flex;
+  position: absolute;
+  width: 5vw;
+  margin-right: auto;
+}
+
+.image-container {
+  position: relative;
+}
+
+/* .image-container img {
+  position: absolute;
+} */
+
+.home {
+  display: flex;
+  position: absolute;
+  width: 5vw;
+  margin-right: auto;
 }
 
 .locations-header {
@@ -117,12 +142,13 @@ padding: 10px;
   padding: 15px;
 }
 
-.resources a {
-  width: 65vw;
+.text {
+  width: 50vw;
   display: flex;
   flex-direction: column;
   padding-bottom: 15px;
   padding-right: 20px;
+  background-color:
 }
 
 .resources #video {
@@ -189,7 +215,7 @@ h2 {
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Cabin', sans-serif;
   margin-bottom: 10px;
 }
