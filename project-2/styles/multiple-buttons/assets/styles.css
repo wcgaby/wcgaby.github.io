@@ -88,6 +88,10 @@ button:hover {
   color: #ffffff;
 }
 
+.buttons {
+  margin-top: 600px;
+}
+
 /* *************** Invisibility area ******************* */
 .calendar-container {
   position: relative;
@@ -104,7 +108,7 @@ img {
 }
 
 img.invisible {
-  visibility: hidden;
+  /* visibility: hidden; */
   opacity: 0;
   /* in order for the animation to occur when the object becomes invisible */
   transition: opacity .25s ease-in-out;

@@ -3,9 +3,9 @@ $(document).ready(function() {
   //ID or Class name of the button goes into the first section
   $('#archery-button').click(function() {
     //ID or Class name of the modal you want to appear on click goes into this second area.
-    $("#archery-calendar").removeClass("invisible");
-    $("#muzzleloader-calendar").addClass("invisible");
-    $("#rifle-calendar").addClass("invisible");
+    $("#archery").removeClass("invisible");
+    $("#muzzleloader").addClass("invisible");
+    $("#rifle").addClass("invisible");
     $("#archery-button").addClass("active");
     $("#muzzleloader-button").removeClass("active");
     $("#rifle-button").removeClass("active");
@@ -13,9 +13,9 @@ $(document).ready(function() {
 
   $('#muzzleloader-button').click(function() {
     //ID or Class name of the modal you want to appear on click goes into this second area.
-    $("#archery-calendar").addClass("invisible");
-    $("#muzzleloader-calendar").removeClass("invisible");
-    $("#rifle-calendar").addClass("invisible");
+    $("#archery").addClass("invisible");
+    $("#muzzleloader").removeClass("invisible");
+    $("#rifle").addClass("invisible");
     $("#archery-button").removeClass("active");
     $("#muzzleloader-button").addClass("active");
     $("#rifle-button").removeClass("active");
@@ -23,9 +23,9 @@ $(document).ready(function() {
 
   $('#rifle-button').click(function() {
     //ID or Class name of the modal you want to appear on click goes into this second area.
-    $("#archery-calendar").addClass("invisible");
-    $("#muzzleloader-calendar").addClass("invisible");
-    $("#rifle-calendar").removeClass("invisible");
+    $("#archery").addClass("invisible");
+    $("#muzzleloader").addClass("invisible");
+    $("#rifle").removeClass("invisible");
     $("#archery-button").removeClass("active");
     $("#muzzleloader-button").removeClass("active");
     $("#rifle-button").addClass("active");

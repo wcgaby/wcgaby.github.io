@@ -52,7 +52,12 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   padding: 0;
-  /* background-color: #5A8854; */
+}
+
+.home-intro {
+  display: flex;
+  margin: 0 auto;
+  width: 35vw;
 }
 
 .intro {
@@ -92,6 +97,13 @@ nav a:hover {
 }
 
 #home {
+  position: absolute;
+  width: 5vw;
+  top: 10px;
+  left: 10px;
+}
+
+.home {
   display: flex;
   position: absolute;
   width: 5vw;
@@ -100,17 +112,6 @@ nav a:hover {
 
 .image-container {
   position: relative;
-}
-
-/* .image-container img {
-  position: absolute;
-} */
-
-.home {
-  display: flex;
-  position: absolute;
-  width: 5vw;
-  margin-right: auto;
 }
 
 .locations-header {
@@ -156,51 +157,77 @@ padding: 10px;
   display: flex;
 }
 
-/* a {
-  font-family: helvetica,sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #3D3B24;
-  background-color: #eeece7;
-  padding: 20% 0;
-  border-radius: 25px;
-  display: block;
-  width: 20%;
-  text-align: center;
-  height: 50px;
+button {
+  background-color: rgba(17, 17, 17, 0);
+  border: 0px;
+  padding: 30px;
+  font-size: 24px;
+  font-family: 'Cabin', sans-serif;
+  color: #3d9a39;
 }
-a:hover {
-  font-family: monospace;
-  background-color: #3D3B24;
-  color: #EEECE7;
-} */
 
-/* homepage styles */
+button.active,
+button:hover {
+  border-bottom: 5px solid;
+}
 
-/* basics styles */
-/* .resources {
-  margin: 15px 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-} */
+#archery-button.active,
+#archery-button:hover {
+  border-color: #3d9a39;
+}
 
-/* basics styles */
+#archery-button:hover {
+  background-color: #3d9a39;
+  color: #ffffff;
+}
 
-/* calendar styles */
-/* .calendar {
-  width: 100px 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+#muzzleloader-button.active,
+#muzzleloader-button:hover {
+  border-color: #EA3F3F;
+}
 
-/* calendar styles */
+#muzzleloader-button:hover {
+  background-color: #EA3F3F;
+  color: #ffffff;
+}
 
-/* locations styles */
-/* body {
-  background-color: #5A8854;
-} */
+#rifle-button.active,
+#rifle-button:hover {
+  border-color: #F5BD3F;
+}
+
+#rifle-button:hover {
+  background-color: #F5BD3F;
+  color: #ffffff;
+}
+
+.buttons {
+  margin-top: 600px;
+}
+
+/* *************** Invisibility area ******************* */
+.calendar-container {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  opacity: 1;
+  /* in order for the animation to occur when the object becomes visible */
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  position: absolute;
+}
+
+img.invisible {
+  /* visibility: hidden; */
+  opacity: 0;
+  /* in order for the animation to occur when the object becomes invisible */
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
 
 h1 {
   font-size: 35px;
@@ -219,40 +246,3 @@ h3 {
   font-family: 'Cabin', sans-serif;
   margin-bottom: 10px;
 }
-
-/* .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0; */
-}
-
-/* .descriptions {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 0;
-  width: 900px;
-} */
-
-/* img {
-  width: 75%; */
-}
-
-/* a {
-  font-family: 'Cabin',sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #3D3B24;
-  background-color: #eeece7;
-  padding: 20% 0;
-  /* border-radius: 25px; */
-  display: block;
-  width: 80%;
-  text-align: center;
-  height: 50px;
-} */
-
-/* locations styles */

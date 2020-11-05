@@ -3,9 +3,9 @@
   <head>
     <title>Whitetail Hunting Season Calendar</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel='stylesheet' href="styles/multiple-buttons/assets/styles.css">
-    <script src='styles/multiple-buttons/assets/multi-button.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src='styles/multiple-buttons/assets/multi-button.js'></script>
+
     <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
   </head>
 
@@ -21,15 +21,18 @@
         <a href='basics.html'>FAQ </a>
       </nav>
     </div>
+    <div class='header'>
+      <h2>2020 Hunting Seasons</h2>
+    </div
     <div class='image-container'>
-      <img src='media/rifle.png' id="rifle">
-      <img src='media/archery.png' id="archery">
+      <img src='media/rifle.png' id="rifle" class='invisible'>
+      <img src='media/archery.png' id="archery" class='invisible'>
       <img src='media/muzzleloader.png' id='muzzleloader'>
     </div>
     <div class='buttons'>
-      <button>Rifle</button>
-      <button>Bow</button>
-      <button>Shotgun</button>
+      <button id='rifle-button'>Rifle</button>
+      <button id='archery-button'>Archery</button>
+      <button id='muzzleloader-button'>Muzzleloader</button>
     </div>
 
   </body>
