@@ -1,0 +1,247 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* homepage styles */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Cabin', sans-serif;
+  width: 100vw;
+}
+
+div.nav {
+  width: 100vw;
+  background-color: #B8825E;
+}
+
+img#deer {
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'League Gothic Regular', sans-serif;
+  width: 80%;
+  color: #F77C13;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #B8825E;
+  position: sticky;
+}
+
+nav a {
+  width: 20%;
+  background-color: #B8825E;
+  padding: 20px 0px;
+  color: #F77C13;
+}
+
+nav a:hover {
+  background-color: #B8BDC9;
+}
+
+.title{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.home-intro {
+  margin: 450px auto;
+  width: 35vw;
+}
+
+.intro {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 15px;
+  width: 35vw;
+}
+
+.image-container {
+  position: relative;
+}
+
+.button-holder{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+#rifle {
+  width: 50vw;
+  margin: 0 auto;
+  display: flex;
+}
+
+.calendar {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#home {
+  position: absolute;
+  width: 5vw;
+  top: 10px;
+  left: 10px;
+}
+
+.home {
+  display: flex;
+  position: absolute;
+  width: 5vw;
+  margin-right: auto;
+}
+
+.image-container {
+  position: relative;
+}
+
+.locations-header {
+display: flex;
+width: 80vw;
+margin: 0 auto;
+justify-content: space-between;
+}
+
+.locations-header .descriptions {
+width: 45%;
+background-color: bisque;
+padding: 10px;
+}
+
+.map {
+  width: 50%;
+}
+
+.map img {
+  width: 100%;
+}
+
+.resources {
+  /* width: 80vw; */
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.text {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  background-color:
+}
+
+.resources #video {
+  width: 15vw;
+  display: flex;
+}
+
+button {
+  background-color: rgba(17, 17, 17, 0);
+  border: 0px;
+  padding: 30px;
+  font-size: 24px;
+  font-family: 'Cabin', sans-serif;
+  color: #3d9a39;
+}
+
+button.active,
+button:hover {
+  border-bottom: 5px solid;
+}
+
+#archery-button.active,
+#archery-button:hover {
+  border-color: #3d9a39;
+}
+
+#archery-button:hover {
+  background-color: #3d9a39;
+  color: #ffffff;
+}
+
+#muzzleloader-button.active,
+#muzzleloader-button:hover {
+  border-color: #EA3F3F;
+}
+
+#muzzleloader-button:hover {
+  background-color: #EA3F3F;
+  color: #ffffff;
+}
+
+#rifle-button.active,
+#rifle-button:hover {
+  border-color: #F5BD3F;
+}
+
+#rifle-button:hover {
+  background-color: #F5BD3F;
+  color: #ffffff;
+}
+
+.buttons {
+  margin-top: 600px;
+}
+
+/* *************** Invisibility area ******************* */
+.calendar-container {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  opacity: 1;
+  /* in order for the animation to occur when the object becomes visible */
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  position: absolute;
+}
+
+img.invisible {
+  /* visibility: hidden; */
+  opacity: 0;
+  /* in order for the animation to occur when the object becomes invisible */
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: 'League Gothic Regular', sans-serif;
+  margin: 25px;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Cabin', sans-serif;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: 'Cabin', sans-serif;
+  margin-bottom: 10px;
+}

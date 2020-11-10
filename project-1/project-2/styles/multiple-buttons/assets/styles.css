@@ -1,0 +1,117 @@
+/* styles.css for the multiple-buttons demo — index.html*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(189, 245, 187, .3);
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%
+}
+
+header h1 {
+  font-weight: 400;
+  margin: 0px;
+  color: #BDF5BB;
+  background-color: #3d9a39;
+  padding: 40px;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  background-color: #bdf5bb;
+  text-align: center;
+  margin-bottom: 5vw;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* *************** Button Section ********************** */
+button {
+  background-color: rgba(17, 17, 17, 0);
+  border: 0px;
+  padding: 30px;
+  font-size: 24px;
+  font-family: 'Cabin', sans-serif;
+  color: #3d9a39;
+}
+
+button.active,
+button:hover {
+  border-bottom: 5px solid;
+}
+
+#archery-button.active,
+#archery-button:hover {
+  border-color: #3d9a39;
+}
+
+#archery-button:hover {
+  background-color: #3d9a39;
+  color: #ffffff;
+}
+
+#muzzleloader-button.active,
+#muzzleloader-button:hover {
+  border-color: #EA3F3F;
+}
+
+#muzzleloader-button:hover {
+  background-color: #EA3F3F;
+  color: #ffffff;
+}
+
+#rifle-button.active,
+#rifle-button:hover {
+  border-color: #F5BD3F;
+}
+
+#rifle-button:hover {
+  background-color: #F5BD3F;
+  color: #ffffff;
+}
+
+.buttons {
+  margin-top: 600px;
+}
+
+/* *************** Invisibility area ******************* */
+.calendar-container {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  opacity: 1;
+  /* in order for the animation to occur when the object becomes visible */
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  position: absolute;
+}
+
+img.invisible {
+  /* visibility: hidden; */
+  opacity: 0;
+  /* in order for the animation to occur when the object becomes invisible */
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}

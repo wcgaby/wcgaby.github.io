@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>multiple buttons</title>
+   <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="assets/styles.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="assets/multi-button.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Multiple Buttons Demo</h1>
+  </header>
+      <!-- top navigation -->
+  <nav>
+    <button id="bow-button" class="active" type="button" name="button">Bow</button>
+    <button id="shotgun-button" class="" type="button" name="button">Shotgun</button>
+    <button id="rifle-button" class="" type="button" name="button">Rifle</button>
+  </nav>
+  <div class="container">
+
+
+    <!-- calendar content -->
+    <section class="calendar-container">
+      <img id="bow-calendar" src="assets/bow-calendar.png" alt="Calendar showing the dates for the bow season">
+      <!-- in order for items to not be visible when the site first loads you need to apply the class of invisible. See styles.css for the properties and values being applied to the img tag. line 64 and 72 -->
+      <img class="invisible" id="shotgun-calendar" src="assets/shotgun-calendar.png" alt="Calendar showing the dates for the shotgun season">
+      <img class="invisible" id="rifle-calendar" src="assets/rifle-calendar.png" alt="Calendar showing the dates for the rifle season">
+    </section>
+
+  </div>
+
+
+
+</body>
+
+</html>
