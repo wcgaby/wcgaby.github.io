@@ -1,0 +1,119 @@
+/* External Stylesheet for Exercise 10: Responsive Resume Design */
+
+/* REMINDER — CODE MOBILE FIRST! The code needed to display your design on a tablet or desktop should be handled using MEDIA QUERIES */
+
+* {
+  margin:0px;
+  padding:0px;
+}
+
+header {
+  font-family: Gotu;
+  font-size: 50px;
+  color: #707070;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: 0 auto;
+  align-self: flex-start;
+}
+
+header img {
+  width: 20vw;
+}
+
+body {
+  margin: 0 auto;
+}
+
+body div {
+  padding: 15px;
+}
+
+h1{
+  font-family: Gotu;
+  font-size: 50px;
+  color: #707070;
+}
+
+h2{
+  font-family: Gotu;
+  font-size: 25px;
+  color: #707070;
+}
+
+h3{
+  font-family: Gotu;
+  font-size: 20px;
+  color: #707070;
+}
+
+h4{
+  font-family: Cabin;
+  font-size: 16px;
+  color: #707070;
+}
+
+h5{
+  font-family: Cabin;
+  font-size: 16px;
+  font-weight: bold;
+  color: #707070;
+}
+
+h6{
+  font-family: Cabin;
+  font-size: 16px;
+  font-style: italic;
+  color: #707070;
+}
+
+h7{
+  font-family: Cabin;
+  font-size: 16px;
+  color: #707070;
+}
+
+.contact div {
+  display: flex;
+  text-align:
+}
+
+.contact img {
+  width: 3vw;
+}
+
+
+
+
+
+
+/* ********** MEDIA QUERIES ********************* */
+
+/* Tablet Design */
+@media screen and (min-width:768px) and (max-width:1024px) {
+  header {
+    flex-direction: row;
+}
+
+body div {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+}
+
+
+/* Desktop Design */
+@media screen and (min-width:1025px) {
+header {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100%
+}
+
+body
+
+}
